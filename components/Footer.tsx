@@ -11,26 +11,27 @@ export default function Footer() {
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Pricing', href: '#pricing' },
+  ];
 
   const resourceLinks = [
     { name: 'Blog', href: '#blog' },
     { name: 'Testimonials', href: '#testimonials' },
     { name: 'FAQ', href: '#faq' },
     { name: 'Contact', href: '#contact' },
+  ];
 
   const legalLinks = [
     { name: 'Privacy Policy', href: '#privacy' },
     { name: 'Terms of Service', href: '#terms' },
     { name: 'Cookie Policy', href: '#cookies' },
+  ];
 
   const socialLinks = [
     { name: 'Instagram', icon: Instagram, href: '#' },
     { name: 'Twitter', icon: Twitter, href: '#' },
     { name: 'Youtube', icon: Youtube, href: '#' },
     { name: 'LinkedIn', icon: Linkedin, href: '#' },
-
-  
-  ];];];];
+  ];
 
   return (
     <footer className="bg-slate-950 relative overflow-hidden">
@@ -231,5 +232,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  </div>);
+  );
 }
