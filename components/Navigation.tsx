@@ -11,8 +11,6 @@ export default function Navigation() {
     { name: 'Pricing', href: '#pricing' },
     { name: 'Testimonials', href: '#testimonials' },
     { name: 'Contact', href: '#contact' },
-
-  
   ];
 
   return (
@@ -106,5 +104,5 @@ export default function Navigation() {
         </div>
       </div>
     </nav>
-  </span>)
+  );
 }
