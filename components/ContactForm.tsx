@@ -58,8 +58,6 @@ export default function ContactForm() {
       label: 'Response time',
       value: 'Within 24 hours',
     },
-
-  
   ];
 
   return (
@@ -234,5 +232,5 @@ export default function ContactForm() {
         </div>
       </div>
     </section>
-  </div></div>);
+  );
 }
