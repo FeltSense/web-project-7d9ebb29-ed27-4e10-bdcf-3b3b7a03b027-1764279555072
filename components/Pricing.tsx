@@ -17,8 +17,6 @@ export default function Pricing() {
     'Advanced analytics dashboard',
     'Priority support',
     'Early access to new features',
-
-  
   ];
 
   return (
@@ -180,5 +178,5 @@ export default function Pricing() {
         </motion.div>
       </div>
     </section>
-  </span>);
+  );
 }
